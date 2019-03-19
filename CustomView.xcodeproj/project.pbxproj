@@ -12,6 +12,10 @@
 		7954A8AB2240B02E008FD76F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7954A8A92240B02E008FD76F /* Main.storyboard */; };
 		7954A8AD2240B02E008FD76F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7954A8AC2240B02E008FD76F /* Assets.xcassets */; };
 		7954A8B02240B02E008FD76F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7954A8AE2240B02E008FD76F /* LaunchScreen.storyboard */; };
+		7954A8B82240B165008FD76F /* CustomView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7954A8B72240B165008FD76F /* CustomView.podspec */; };
+		7954A8BD2240B1D3008FD76F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954A8BA2240B1D3008FD76F /* GradientView.swift */; };
+		7954A8BE2240B1D3008FD76F /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954A8BB2240B1D3008FD76F /* CustomView.swift */; };
+		7954A8BF2240B1D3008FD76F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954A8BC2240B1D3008FD76F /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		7954A8AC2240B02E008FD76F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7954A8AF2240B02E008FD76F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7954A8B12240B02E008FD76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7954A8B72240B165008FD76F /* CustomView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CustomView.podspec; sourceTree = "<group>"; };
+		7954A8BA2240B1D3008FD76F /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		7954A8BB2240B1D3008FD76F /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		7954A8BC2240B1D3008FD76F /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,8 @@
 		7954A8A42240B02E008FD76F /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				7954A8B92240B192008FD76F /* Library */,
+				7954A8B72240B165008FD76F /* CustomView.podspec */,
 				7954A8A52240B02E008FD76F /* AppDelegate.swift */,
 				7954A8A72240B02E008FD76F /* ViewController.swift */,
 				7954A8A92240B02E008FD76F /* Main.storyboard */,
@@ -62,6 +72,16 @@
 				7954A8B12240B02E008FD76F /* Info.plist */,
 			);
 			path = CustomView;
+			sourceTree = "<group>";
+		};
+		7954A8B92240B192008FD76F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				7954A8BC2240B1D3008FD76F /* CustomButton.swift */,
+				7954A8BB2240B1D3008FD76F /* CustomView.swift */,
+				7954A8BA2240B1D3008FD76F /* GradientView.swift */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7954A8B82240B165008FD76F /* CustomView.podspec in Resources */,
 				7954A8B02240B02E008FD76F /* LaunchScreen.storyboard in Resources */,
 				7954A8AD2240B02E008FD76F /* Assets.xcassets in Resources */,
 				7954A8AB2240B02E008FD76F /* Main.storyboard in Resources */,
@@ -136,7 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7954A8A82240B02E008FD76F /* ViewController.swift in Sources */,
+				7954A8BE2240B1D3008FD76F /* CustomView.swift in Sources */,
 				7954A8A62240B02E008FD76F /* AppDelegate.swift in Sources */,
+				7954A8BD2240B1D3008FD76F /* GradientView.swift in Sources */,
+				7954A8BF2240B1D3008FD76F /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

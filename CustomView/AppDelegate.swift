@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  CustomView
 //
-//  Created by 전건우 on 19/03/2019.
+//  Created by Geonu Jeon on 19/03/2019.
 //  Copyright © 2019 Geonu Jeon. All rights reserved.
 //
 
