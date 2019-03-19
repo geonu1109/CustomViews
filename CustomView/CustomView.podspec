@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "CustomView"
   s.version      = "0.0.1"
-  s.summary      = "A short description of CustomView."
+  s.summary      = "Storyboard friendly UI components."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+Storyboard friendly UI components.
                    DESC
 
   s.homepage     = "https://www.github.com/geonu1109/CustomView"
