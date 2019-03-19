@@ -91,7 +91,7 @@ Storyboard friendly UI components.
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Library/*.swift"
+  s.source_files  = "Source/*.swift"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
