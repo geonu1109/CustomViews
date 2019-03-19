@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 Storyboard friendly UI components.
                    DESC
 
-  s.homepage     = "https://www.github.com/geonu1109/CustomView"
+  s.homepage     = "https://github.com/geonu1109/CustomView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Storyboard friendly UI components.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://www.github.com/geonu1109/CustomView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/geonu1109/CustomView.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
